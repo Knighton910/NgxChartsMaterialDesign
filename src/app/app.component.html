@@ -20,3 +20,31 @@
     (select)="onSelect($event)">
   </ngx-charts-advanced-pie-chart>
 </div>
+
+<ngx-charts-bar-horizontal-2d
+  [view]="view"
+  [scheme]="colorScheme"
+  [results]="dope"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="yAxisLabel"
+  (select)="onSelect($event)">
+</ngx-charts-bar-horizontal-2d>
+
+<ngx-charts-area-chart-stacked
+  [view]="view"
+  [scheme]="colorScheme"
+  [results]="dope"
+  [gradient]="gradient"
+  [xAxis]="showXAxis"
+  [yAxis]="showYAxis"
+  [showXAxisLabel]="showXAxisLabel"
+  [showYAxisLabel]="showYAxisLabel"
+  [xAxisLabel]="xAxisLabel"
+  [yAxisLabel]="yAxisLabel"
+  (select)="onSelect($event)">
+</ngx-charts-area-chart-stacked>

@@ -68,6 +68,106 @@ export class AppComponent {
     }
   ];
 
+  dope: any[] =[
+    {
+      "name": "Germany",
+      "series": [
+        {
+          "name": "2010",
+          "value": 7300000
+        },
+        {
+          "name": "2011",
+          "value": 8940000
+        }
+      ]
+    },
+
+    {
+      "name": "Portugal",
+      "series": [
+        {
+          "name": "2010",
+          "value": 7870000
+        },
+        {
+          "name": "2011",
+          "value": 8270000
+        }
+      ]
+    },
+
+    {
+      "name": "France",
+      "series": [
+        {
+          "name": "2010",
+          "value": 5000002
+        },
+        {
+          "name": "2011",
+          "value": 5800000
+        }
+      ]
+    },
+
+    {
+      "name": "USA",
+      "series": [
+        {
+          "name": "2010",
+          "value": 7870000
+        },
+        {
+          "name": "2011",
+          "value": 8270000
+        }
+      ]
+    },
+
+    {
+      "name": "Spain",
+      "series": [
+        {
+          "name": "2010",
+          "value": 5000002
+        },
+        {
+          "name": "2011",
+          "value": 9800000
+        }
+      ]
+    },
+
+    {
+      "name": "Great Britain",
+      "series": [
+        {
+          "name": "2010",
+          "value": 7870000
+        },
+        {
+          "name": "2011",
+          "value": 4270000
+        }
+      ]
+    },
+
+    {
+      "name": "Greece",
+      "series": [
+        {
+          "name": "2010",
+          "value": 9000002
+        },
+        {
+          "name": "2011",
+          "value": 5800000
+        }
+      ]
+    }
+  ];
+
   view: any[] = [700, 400];
 
   // options
